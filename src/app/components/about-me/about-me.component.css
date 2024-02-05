@@ -1,0 +1,40 @@
+.container-aboutMe {
+    background-color:black;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+}
+
+.container-presentacion{
+    margin:10px;
+    width:50%;
+}
+
+.container-presentacion > h1{
+    font-size:48px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container-presentacion > p {
+    color:#808082;
+}
+
+.container-imagen{
+    margin:10px;
+}
+
+.container-grid{
+    background-color:black;
+}
+
+.grid-container{
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:50% 50%;
+    color:white;
+}
+
+.grid-item{
+    font-family: 'Poppins', sans-serif;
+}

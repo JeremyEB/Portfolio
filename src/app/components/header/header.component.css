@@ -1,0 +1,43 @@
+header{
+    display:flex;
+    justify-content:space-around;
+    background-color:black;
+    color:white;
+    padding:20px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container-header > p{
+    font-weight:bold;
+    margin:10px;
+}
+
+ul, ol, li {
+    list-style:none;
+}
+
+li{
+    margin:10px;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+    cursor:pointer;
+}
+
+a:hover{
+    font-size:20px;
+    color:white;
+    text-decoration:underline;
+    transition: all 1s;
+}
+
+.container-nav {
+    width:50%;
+}
+
+.container-nav > ul{
+    display:flex;
+    justify-content:center;
+}
